@@ -1,0 +1,5 @@
+Padrões adicionados:
+
+1. Adapter (TimSMSAdapter, VivoSMSAdapter) → Converte as APIs das operadoras para um formato comum.
+2. Factory Method (SMSSenderFactory) → Seleciona dinamicamente a operadora correta.
+3. Fachada (FachadaSMS) → Fornece uma interface simples para o cliente enviar mensagens.
